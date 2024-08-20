@@ -3,7 +3,7 @@ name: Build and Release TDLib
 on:
   push:
     tags:
-      - 'v*'
+      - '*'
 
 jobs:
   build-linux-x86_64:
